@@ -1,0 +1,9 @@
+{
+	"phpcs_show_errors_in_status": false,
+	"phpcs_additional_args": {
+		"--standard": "WordPress",
+		// "-n": "",
+		// "--colors": "",
+		"-s": ""
+	},
+}

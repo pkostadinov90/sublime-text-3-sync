@@ -1,0 +1,11 @@
+// GitGutter Settings - User
+{
+	"show_line_annotation": "true",
+	"line_annotation_ruler": 2,
+	"status_bar_text": [
+        "{% if repo and branch %}",
+        "{{branch}}",
+        "{% if line_author and line_author_age %}, ⟢ {{line_author}} ({{line_author_age}}){% endif %}",
+        "{% endif %}"
+    ],
+}

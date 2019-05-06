@@ -1,0 +1,43 @@
+[
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["ctrl+shift+o"], "command": "open_dir",
+    "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["f8"], "command": "swap_selections" },
+    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+    { "keys": ["ctrl+shift+c"], "command": "copy_path" },
+    {
+    	// 3-way merge-like
+		"keys": ["alt+shift+m"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells":
+			[
+				[0, 0, 1, 1], [1, 0, 2, 1],
+				[0, 1, 2, 2]
+			]
+		}
+	},
+	// { "keys": ["ctrl+alt+shift+p"], "command": "" },
+	{ "keys": ["ctrl+shift+v"], "command": "paste_from_history" },
+	// { "keys": ["ctrl+shift+v"] },
+	{
+		"keys": ["ctrl+alt+shift+a"], "command": "align_tab",
+		"args" : {"live_preview" : true}
+	},
+	{
+		"keys": ["ctrl+alt+a"], "command": "align_tab",
+		"args" : {"user_input" : "=>"}
+	},
+	{ "keys": ["ctrl+."], "command": "" },
+	{ "keys": ["ctrl+,"], "command": "" },
+	{ "keys": ["ctrl+k", "ctrl+z"], "command": "" },
+	{ "keys": ["ctrl+k", "ctrl+/"], "command": "" },
+	{ "keys": ["ctrl+k", "ctrl+;"], "command": "" },
+]
