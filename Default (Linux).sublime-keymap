@@ -25,7 +25,7 @@
 		}
 	},
 	// { "keys": ["ctrl+alt+shift+p"], "command": "" },
-	{ "keys": ["ctrl+shift+v"], "command": "paste_from_history" },
+	// { "keys": ["ctrl+shift+v"], "command": "paste_from_history" },
 	// { "keys": ["ctrl+shift+v"] },
 	{
 		"keys": ["ctrl+alt+shift+a"], "command": "align_tab",

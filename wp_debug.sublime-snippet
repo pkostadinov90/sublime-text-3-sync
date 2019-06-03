@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+define( 'WP_DEBUG', true );
+define( 'WP_DISABLE_FATAL_ERROR_HANDLER', true );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_debug</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

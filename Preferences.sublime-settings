@@ -42,7 +42,9 @@
 		"*.db",
 		"*.zip",
 		"*.sublime-workspace",
-		"themes/trueactivist/header-backup.php"
+		"themes/trueactivist/header-backup.php",
+		"plugins/ajax-load-more/*",
+		"plugins/ajax-load-more-next-page/*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -70,19 +72,22 @@
 		"wp-admin",
 		"wp-includes"
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"ES6-Toolkit",
 		"ESLint",
 		"GitGutter",
 		"Javascript Beautify",
+		"JavaScriptNext - ES6 Syntax",
 		"JS Snippets",
 		"Open File in Current Folder",
 		"Open Folder",
 		"Path Tools",
 		"PHP CS Fixer",
 		"Phpcs",
+		"Pretty JSON",
 		"SublimeLinter-php",
 		"Vintage"
 	],
